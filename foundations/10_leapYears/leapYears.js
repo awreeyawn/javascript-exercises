@@ -1,4 +1,7 @@
-const leapYears = function() {
+const leapYears = function(year) {
+    const isALeapYear = year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
+
+
 
 };
 
